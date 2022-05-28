@@ -1,11 +1,14 @@
 <img height="200" src="./weixin.png?raw=true">
 
-# React-Native-Wechat
+# xm-react-native-wechat
 
-[React Native] bridging library that integrates WeChat SDKs:
+因为 react-native-wechat 微信 sdk 过时等原因，所以在此库上面进行修改，用的不是官方推荐的 npm 包
+开发流程 https://reactnative.dev/docs/native-modules-setup ，因此本地测试流程有所区别，
+当你修改了 xm-react-native-wechat 的代码时，要想进行测试，
 
-- [x] iOS SDK 1.7.2
-- [x] Android SDK 221
+- npm pack 生产 npm tagz 包
+- cd example && npm i 添加依赖
+- react-native run-android 或者 react-native run-ios
 
 ## Table of Contents
 
