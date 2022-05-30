@@ -316,53 +316,8 @@ Sends request for proceeding payment, then returns an object:
 $ npm install react-native-wechat --save
 ```
 
-## Partners
-
-[React Native Starter Kit](https://reactnativestarter.com/) - is a mobile starter kit that allows your team to fully focus on development of the features that set your product apart from the competitors instead of building your app from scratch.
-
-## Community
-
-#### IRC
-
-<a href="http://qm.qq.com/cgi-bin/qm/qr?k=cg3irEFCGxjkm2YJCt5V9OeJA1pNo5Ui"><img width="200" src="./qrcode_qq.jpg"></a>
-
 #### Tutorials
 
 - [react-native-wechat 微信组件的使用](http://www.jianshu.com/p/3f424cccb888)
 - [超详细 React Native 实现微信好友/朋友圈分享功能-Android/iOS 双平台通用](http://www.jianshu.com/p/ce5439dd1f52)
 - [柳轩涤俗 - 微信登录](http://www.cnblogs.com/zhangdw/p/6194345.html)
-
-#### Who's using it
-
-<a href="https://github.com/attentiveness/reading"><img height="80" width="80" src="https://raw.githubusercontent.com/attentiveness/reading/master/Reading_Logo.png"></a>
-<a href="https://github.com/lipeiwei-szu/ReactNativeOne"><img height="80" width="80" src="http://android-artworks.25pp.com/fs08/2017/05/22/3/110_ed42e5c8f701ae26be6b0c423cb51858_con_130x130.png"></a>
-
-## Authors
-
-| GitHub        | Role    | Email                 |
-| ------------- | ------- | --------------------- |
-| [@yorkie]     | Author  | yorkiefixer@gmail.com |
-| [@xing-zheng] | Emeriti |                       |
-| [@tdzl2003]   | Emeriti | tdzl2003@gmail.com    |
-
-[@yorkie]: https://github.com/yorkie
-[@xing-zheng]: https://github.com/xing-zheng
-[@tdzl2003]: https://github.com/tdzl2003
-
-## License
-
-MIT
-
-[react-native-wechat]: https://github.com/yorkie/react-native-wechat
-[npm-image]: https://img.shields.io/npm/v/react-native-wechat.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/react-native-wechat
-[travis-image]: https://img.shields.io/travis/yorkie/react-native-wechat.svg?style=flat-square
-[travis-url]: https://travis-ci.org/yorkie/react-native-wechat
-[david-image]: http://img.shields.io/david/yorkie/react-native-wechat.svg?style=flat-square
-[david-url]: https://david-dm.org/yorkie/react-native-wechat
-[downloads-image]: http://img.shields.io/npm/dm/react-native-wechat.svg?style=flat-square
-[downloads-url]: https://npmjs.org/package/react-native-wechat
-[react native]: https://github.com/facebook/react-native
-[react-native-cn]: https://github.com/reactnativecn
-[wechat sdk]: https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=1417674108&token=&lang=zh_CN
-[linking libraries ios guidance]: https://developer.apple.com/library/ios/recipes/xcode_help-project_editor/Articles/AddingaLibrarytoaTarget.html

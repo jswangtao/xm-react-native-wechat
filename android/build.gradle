@@ -5,8 +5,8 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-  compileSdkVersion safeExtGet('compileSdkVersion', 23)
-  buildToolsVersion safeExtGet('buildToolsVersion', '23.0.1')
+  compileSdkVersion safeExtGet('compileSdkVersion', 29)
+  buildToolsVersion safeExtGet('buildToolsVersion', '29.0.9')
 
   defaultConfig {
     minSdkVersion safeExtGet('minSdkVersion', 16)
@@ -19,14 +19,31 @@ android {
   }
 }
 
+buildscript {
+  repositories {
+    google()
+    jcenter()
+    mavenCentral()
+    maven { url "$projectDir/../../react-native/android" }
+  }
+  dependencies {
+    classpath "com.android.tools.build:gradle:3.6.3"
+  }
+}
+
+
 allprojects {
   repositories {
     jcenter()
+    mavenCentral()
     maven { url "$projectDir/../../react-native/android" }
   }
+
 }
 
 dependencies {
   api 'com.facebook.react:react-native:+'
-  api files('libs/libammsdk.jar')
+//  api files('libs/libammsdk.jar')
+  api 'com.tencent.mm.opensdk:wechat-sdk-android:+'
+
 }
