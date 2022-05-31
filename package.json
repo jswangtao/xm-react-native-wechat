@@ -2,7 +2,7 @@
   "name": "xm-react-native-wechat",
   "description": "react-native library for wechat app",
   "main": "index.js",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",

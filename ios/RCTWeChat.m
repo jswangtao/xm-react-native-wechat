@@ -424,7 +424,7 @@ RCT_EXPORT_METHOD(pay:(NSDictionary *)data
       if (r) {
         // ios第一次获取不到appid会卡死，加个判断OK
           if (self.appId && r) {
-              [body addEntriesFromDictionary:@{@"appid":self.appId,,@"code":r.code}];
+              [body addEntriesFromDictionary:@{@"appid":self.appId,@"code":r.code}];
               [self.bridge.eventDispatcher sendDeviceEventWithName:RCTWXEventName body:body];
       //        [GJUtil sendNotificationForRNEventEmitterWithActionKey:RCTWXEventName parameter:body];
           }
