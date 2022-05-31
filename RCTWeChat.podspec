@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yorkie/react-native-wechat.git", :tag => "master" }
   s.source_files  = "ios/*.{h,m}"
   s.dependency "React"
+  s.dependency 'WechatOpenSDK', '~> 1.8.6'
   s.vendored_libraries = "ios/libWeChatSDK.a"
   s.requires_arc = true
   s.frameworks = 'SystemConfiguration','CoreTelephony'
